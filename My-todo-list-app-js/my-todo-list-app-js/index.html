@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>My To Do List App</title>
+</head>
+<body>
+    <div class="todo-container">
+        <header class="todo-header">
+            <h1>My To Do List</h1>
+            <form id="addForm" class="form-inline mb-3" name="todos">
+                <input type="text" class="form-control mr-2" id="item">
+                <button><i class="fas fa-plus"></i></button>
+            </form>
+        </header>
+        
+        <div class="todo-items">
+            <ul id="items" class="list-group">
+                <li class="list-group-item">ToDo 1 
+                    <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+                <li class="list-group-item">ToDo 2 
+                    <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+                <li class="list-group-item">ToDo 3 
+                    <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+              </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Josh Ivan Lanuevo &copy; <script>document.write( new Date().getFullYear() );</script></p>
+        <a href="https://github.com/Joshlanuevo" target="_blank">Source Code</a>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
